@@ -1,0 +1,25 @@
+/* Fonts */
+
+
+/* Variables */
+:root {
+    --transition: all 0.3s linear;
+    --spacing:0.25rem;
+    --radius: 0.3rem;
+}
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background:#42F2F7;
+    font-family:var(--ff-primary);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
