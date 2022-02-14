@@ -1,5 +1,7 @@
 /* Fonts */
-
+html{
+    background-color: #42F2F7;
+}
 
 /* Variables */
 :root {
@@ -12,7 +14,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    background:#42F2F7;
+    background:var(--clr-white);
     font-family:var(--ff-primary);
 }
 .navbar{
